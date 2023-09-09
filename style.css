@@ -116,7 +116,7 @@ body {
   z-index: -1;
 }
 
-@media (max-width: 1917px) {
+@media (max-width: 767px) {
   /* Your CSS styles for phone view here */
   .main-text {
     font-size: 3rem;

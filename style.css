@@ -1,0 +1,256 @@
+body {
+  background-color: rgba(1, 50, 67, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-text {
+  color: #32f5c8;
+  margin-left: 113px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  font-size: 8rem;
+  z-index: 1;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.future_notification_button {
+  border: 0;
+  background-color: #32f5c8;
+  color: rgba(1, 50, 67, 255);
+  margin-left: 110px;
+  height: 54px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: block;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.future_notification_button:hover {
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 110px;
+  margin-top: 23px;
+}
+
+p {
+  color: #a9bdc6;
+}
+
+.description-text {
+  margin: 20px 0 24px 110px;
+  font-size: 20px;
+}
+
+.follow_text {
+  font-size: 21px;
+}
+
+.twitter-container {
+  margin-left: 110px;
+  margin: 49px 0 0 110px;
+  display: inline-flex;
+  gap: 15px;
+}
+
+.twitter-container:hover {
+  cursor: pointer;
+}
+
+.twitter-logo {
+  margin-left: -17px;
+}
+
+body {
+  position: relative;
+}
+
+.user3 {
+  position: absolute;
+  top: 78px;
+  left: 23px;
+  z-index: -1;
+  width: 127px;
+}
+
+.user6 {
+  position: absolute;
+  top: 345px;
+  left: 555px;
+  width: 114px;
+  z-index: -1;
+}
+
+#e {
+  position: relative;
+  z-index: -2;
+}
+
+.user1 {
+  position: absolute;
+  top: 330px;
+  left: 888px;
+  z-index: -1;
+}
+
+.user4 {
+  position: absolute;
+  left: 700px;
+  width: 198px;
+  bottom: 0;
+}
+
+.user2 {
+  position: absolute;
+  left: 888px;
+  top: 25px;
+}
+
+.user5 {
+  position: absolute;
+  left: 733px;
+  top: 87px;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  /* Your CSS styles for phone view here */
+  .main-text {
+    font-size: 3rem;
+    margin-left: 15px;
+    margin-top: 150px;
+  }
+
+  .description-text {
+    font-size: 23px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  .user1,
+  .user4,
+  .user5 {
+    display: none;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .main-text,
+  .description-text,
+  .future_notification_button,
+  .twitter-container {
+    margin-left: 15px;
+  }
+
+  .user3 {
+    width: 100px;
+    position: absolute;
+    left: 45px;
+    top: 123px;
+  }
+
+  .future_notification_button {
+    margin-bottom: 118px;
+  }
+
+  .user6 {
+    position: absolute;
+    left: 165px;
+    top: 483px;
+    width: 145px;
+  }
+
+  .user2 {
+    position: absolute;
+    left: 200px;
+    top: 104px;
+    width: 140px;
+    z-index: -1;
+  }
+
+  .twitter-container {
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablet view here */
+
+  .main-text {
+    margin-top: 270px;
+  }
+
+  .main-text,
+  .description-text,
+  .future_notification_button,
+  .logo {
+    margin-left: 33px;
+  }
+
+  .description-text {
+    font-size: 35px;
+  }
+
+  .future_notification_button {
+    height: 75px;
+    width: 265px;
+    padding: 8px 15px;
+    margin-bottom: 150px;
+  }
+
+  .twitter-container {
+    margin-left: 55px;
+  }
+
+  .follow_text {
+    font-size: 31px;
+  }
+
+  .user1 {
+    position: absolute;
+    left: 780px;
+    top: 370px;
+    width: 150px;
+  }
+
+  .user5 {
+    left: 598px;
+    top: 265px;
+    width: 150px;
+  }
+
+  .user6 {
+    left: 700px;
+    top: 570px;
+    width: 150px;
+  }
+
+  .user2 {
+    width: 215px;
+    left: 700px;
+    top: 45px;
+  }
+
+  .user4 {
+    width: 300px;
+    left: 578px;
+    top: 779px;
+  }
+
+  .user3 {
+    width: 160px;
+    top: 90px;
+    left: 45px;
+  }
+}
